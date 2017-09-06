@@ -30,17 +30,17 @@ void setBufferedInput(bool enable) {
 	}
 }
 
-int main(int argc, char *argv[]) {
+int main(int argc,char *argv[]){
 	char c;
 	setBufferedInput(false);
 	while(true){
 		c=getchar();
 		switch(c){
 			case 68:
-				printf("%c",c);
+				printf("%s","this is a shang");
 			break;
 		}
-		printf("%c",c);
+		//printf("%c",c);
 	}
 	return 0;
 }
