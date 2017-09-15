@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <stdint.h>
 #define MAX_TIME 85
-#define DHT11PIN 6
+#define DHT11PIN 15
 #define ATTEMPTS 5                 						//retry 5 times when no response
 int dht11_val[5]={0,0,0,0,0};
 int dht11_read_val(){
