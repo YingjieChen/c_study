@@ -13,6 +13,7 @@ int main()
 	uint8_t digitalvalue	=	0;
 	for(;;){
 		digitalWrite(IRpin,++digitalvalue%2);
+		delay(100);
 	}
 	printf("------------bye-------------");
 	return 0;
